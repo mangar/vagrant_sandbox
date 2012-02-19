@@ -1,0 +1,7 @@
+data/apache-tomcat-7.0.25
+data/sandbox.local/log/*
+resources/apache-tomcat-7.0.25.tar.gz
+temp/**/*
+temp/*
+* ̃ .DS_Store
+*.log
