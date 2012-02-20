@@ -2,7 +2,6 @@
 STEPS
 =====
 
-
 vagrant up
 
 vagrant ssh
@@ -11,8 +10,14 @@ sudo /etc/init.d/tomcat start
 sudo nginx -s reload
 
 
+
 TESTING
 =======
+
+Add this to your /etc/hosts:
+127.0.0.1       www.sandbox.local sandbox.local app1.sandbox.local
+
+
 
 Nginx:
 http://app1.sandbox.local:4567/
@@ -22,3 +27,16 @@ http://app1.sandbox.local:4568/index.jsp
 
 Nginx + Tomcat:
 http://app1.sandbox.local:4567/index.jsp
+
+
+
+RESOURCES
+=========
+
+Vagrant:
+http://vagrantup.com/
+
+Puppet Cookbook:
+http://www.puppetcookbook.com/posts/ensure-service-is-stopped.html
+
+
