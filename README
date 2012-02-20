@@ -1,0 +1,24 @@
+
+STEPS
+=====
+
+
+vagrant up
+
+vagrant ssh
+
+sudo /etc/init.d/tomcat start
+sudo nginx -s reload
+
+
+TESTING
+=======
+
+Nginx:
+http://app1.sandbox.local:4567/
+
+Tomcat:
+http://app1.sandbox.local:4568/index.jsp
+
+Nginx + Tomcat:
+http://app1.sandbox.local:4567/index.jsp
